@@ -11,6 +11,7 @@ Design, configure, and verify an IPv4 subnetting scheme in Cisco Packet Tracer.<
 •	Configure IP addressing on routers, switches, and PCs.<br>
 •	Verify connectivity using ping and router show commands.<br>
 <br>
+________________________________________
 
 ## Apparatus / Tools Required
 •	Cisco Packet Tracer<br>
@@ -20,9 +21,13 @@ Design, configure, and verify an IPv4 subnetting scheme in Cisco Packet Tracer.<
 •	Copper straight-through cables for LAN links<br>
 •	Serial DCE/DTE cable for WAN link<br>
 ________________________________________
+
 ## Network Topology Diagram
-(Insert your Packet Tracer screenshot showing R1 ↔ R2 serial link, each router connected to two switches with PCs attached.)<br>
+
+<img width="648" height="342" alt="image" src="https://github.com/user-attachments/assets/d0ba430e-1f90-4201-817f-af3b4e3f0ce0" />
+
 ________________________________________
+
 ## Addressing Table
 
 | Device |	Interface |	IP Address               |	Subnet Mask |	Default Gateway |
@@ -102,6 +107,8 @@ o	Ping across WAN (PC2 ↔ PC4)<br>
 •	Show/verify: show ip interface brief, show ip route<br>
 •	Save: copy running-config startup-config<br>
 <br>
+________________________________________
+
 ## Output (Attach Screenshots)
 ### •	show ip interface brief on R1<br>
 
@@ -123,9 +130,6 @@ o	Ping across WAN (PC2 ↔ PC4)<br>
 
 #### Ping from PC4 to R4
 <img width="532" height="250" alt="Screenshot 2025-10-03 095254" src="https://github.com/user-attachments/assets/985e6bcc-fa98-4a40-a5a8-247f77d4112a" />
-
-
-
 
 <br>
 
