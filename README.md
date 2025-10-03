@@ -43,6 +43,7 @@ ________________________________________
 | PC4    |	NIC       |	192.168.100.126 |	255.255.255.224 |	R2 G0/1         |
 
 <br>
+
 ## Procedure
 ### Part 1: Subnet the Assigned Network
 1.	Start with network: 192.168.100.0/24.<br>
@@ -54,7 +55,7 @@ o	Subnet 1 → LAN (R1 G0/1)<br>
 o	Subnet 2 → LAN (R2 G0/0)<br>
 o	Subnet 3 → LAN (R2 G0/1)<br>
 o	Subnet 4 → WAN (R1–R2 Serial link)<br>
-________________________________________<br>
+
 ### Part 2: Configure the Devices
 #### Router R1<br>
 enable<br>
